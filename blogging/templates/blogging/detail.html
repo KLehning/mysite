@@ -2,6 +2,7 @@
 
 {% block content %}
 <a class="backlink" href="/">Home</a>
+<a href="{% url 'add_post' %}">New Post</a></li>
 <h1>{{ post }}</h1>
 <p class="byline">
   Posted by {{ post.author.username }} &mdash; {{ post.published_date }}

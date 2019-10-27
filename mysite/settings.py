@@ -27,8 +27,7 @@ SECRET_KEY = '1g#1!70p==#%&b77ppckaw$grlz%v(ye3%*h%6r5m)3r%n-j@k'
 DEBUG = False
 TEMPLATE_DEBUG = False
 
-# ALLOWED_HOSTS = ['python230-ubuntu7014.westus.cloudapp.azure.com', 'localhost']
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['python230-ubuntu7014.westus.cloudapp.azure.com', 'localhost']
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Application definition

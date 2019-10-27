@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1g#1!70p==#%&b77ppckaw$grlz%v(ye3%*h%6r5m)3r%n-j@k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = ['python230-ubuntu7014.westus.cloudapp.azure.com', 'localhost']

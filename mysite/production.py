@@ -8,8 +8,9 @@ DATABASES = {
 
 DEBUG = False
 TEMPLATE_DEBUG = False
-ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS'), 'localhost']
-print(ALLOWED_HOSTS)
+# ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS'), 'localhost']
+ALLOWED_HOSTS = ['python230-ubuntu8000005.westus.cloudapp.azure.com', 'localhost']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-print(os.getenv('SECRET_KEY', 0))
-SECRET_KEY = os.environ.get('SECRET_KEY', 0)
+SECRET_KEY = 'adkDf9brpZSvyY6F5sxqE7F579pPGL72y98AaDCaBQ9dHZ9XBT'
+# SECRET_KEY = os.environ.get('SECRET_KEY', 0)
+DATABASE_URL = 'postgres://postgres:8dB8t!c7bFHFnThYw@<db DNS>:5432/djangoblog'

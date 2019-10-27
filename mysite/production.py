@@ -9,6 +9,7 @@ DATABASES = {
 DEBUG = False
 TEMPLATE_DEBUG = False
 ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS'), 'localhost']
+print(ALLOWED_HOSTS)
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 print(os.getenv('SECRET_KEY', 0))
-SECRET_KEY = os.getenv('SECRET_KEY', 0)
+SECRET_KEY = os.environ.get('SECRET_KEY', 0)
